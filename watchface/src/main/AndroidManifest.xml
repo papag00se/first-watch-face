@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.codelab">
+
+    <application android:label="@string/watch_face_name" android:hasCode="false">
+
+        <!-- Mark this as a standalone watch-face-only app -->
+        <meta-data android:name="com.google.android.wearable.standalone" android:value="true" />
+
+        <!-- Watch Face Format version: 1 matches the codelab setup -->
+        <property android:name="com.google.wear.watchface.format.version" android:value="1" />
+
+    </application>
+
+</manifest>
